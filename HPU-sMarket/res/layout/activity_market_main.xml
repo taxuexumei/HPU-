@@ -1,0 +1,62 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_height="220dp"
+        android:layout_width="fill_parent"
+        android:background="#96C07C">
+        <ImageView 
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:text="@string/shuoming"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:background="#EDE3C7"
+        android:orientation="vertical">
+       <EditText 
+           android:layout_height="wrap_content"
+           android:layout_width="200dp"
+           android:layout_marginTop="30dp"
+           android:background="#EDE3C7"
+           android:layout_marginLeft="100dp"
+           android:text="@string/nicheng"/>
+       <EditText 
+           android:layout_height="wrap_content"
+           android:layout_width="200dp"
+           android:layout_marginTop="20dp"
+           android:background="#EDE3C7"
+           android:layout_marginLeft="100dp"
+           android:text="@string/email"/>
+       <EditText 
+           android:layout_height="wrap_content"
+           android:layout_width="200dp"
+           android:layout_marginTop="20dp"
+           android:background="#EDE3C7"
+           android:layout_marginLeft="100dp"
+           android:text="@string/password"/>
+       <EditText 
+           android:layout_height="wrap_content"
+           android:layout_width="200dp"
+           android:layout_marginTop="20dp"
+           android:background="#EDE3C7"
+           android:layout_marginLeft="100dp"
+           android:text="@string/rightpsw"/>
+        
+    </LinearLayout>
+</LinearLayout>

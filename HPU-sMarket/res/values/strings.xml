@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HPU-sMarket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nicheng">昵称</string>
+    <string name="email">邮箱</string>
+    <string name="password">密码</string>
+    <string name="rightpsw">确认密码</string>
+    <string name="shuoming">河南理工大学二手市场</string>
+
+</resources>
